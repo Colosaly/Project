@@ -2,6 +2,7 @@
 
 int main(){
   std::cout<<"Mama";
+  std::cout<<"Press F to pay respect to mama" << endl
   return 0;
 }
 //МАААААААААМАААААААААААААААА
