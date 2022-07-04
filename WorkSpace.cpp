@@ -16,8 +16,8 @@ string WorkSpace::get_desk() { return desk; }
 string WorkSpace::get_chair() { return chair; }
 
 void WorkSpace::show() const {
-	cout << "Ðàáî÷åå ìåñòî\n";
-	cout << "Íîìåð êàáèíåòà : " << cab_num << endl;
-	cout << "Ðàáî÷èé ñòîë : " << desk << endl;
-	cout << "Ðàáî÷åå êðåñëî : " << chair << endl;
+	cout << "Ð Ð°Ð±Ð¾Ñ‡ÐµÐµ Ð¼ÐµÑÑ‚Ð¾\n";
+	cout << "ÐÐ¾Ð¼ÐµÑ€ ÐºÐ°Ð±Ð¸Ð½ÐµÑ‚Ð° : " << cab_num << endl;
+	cout << "Ð Ð°Ð±Ð¾Ñ‡Ð¸Ð¹ ÑÑ‚Ð¾Ð» : " << desk << endl;
+	cout << "Ð Ð°Ð±Ð¾Ñ‡ÐµÐµ ÐºÑ€ÐµÑÐ»Ð¾ : " << chair << endl;
 }
