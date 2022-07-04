@@ -9,6 +9,7 @@ Comp::Comp(int _ip, const string& _proc, int _mem) : ip(_ip), proc(_proc), mem(_
 int Comp::get_ip() const { return ip; };
 string Comp::get_proc() const { return proc; };
 int Comp::get_mem() const { return mem; };
+
 //setters
 void Comp::set_ip(int new_ip) { ip = new_ip; };
 void Comp::set_proc(string new_proc) { proc = new_proc; };
