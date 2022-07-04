@@ -18,7 +18,7 @@ void Comp::set_mem(int new_mem) { mem = new_mem; };
 void Comp::show()
 {
 	cout << "IP: " << ip << endl;
-	cout << "Ïðîöåññîð: " << proc << endl;
-	cout << "Ïàìÿòü: " << mem << endl;
+	cout << "Процессор: " << proc << endl;
+	cout << "Память: " << mem << endl;
 };
 
