@@ -1,0 +1,21 @@
+#include "PerDevice.h"
+using namespace std;
+
+PerDevice::PerDevice(): {}
+PerDevice::PerDevice(const PerDevice& obj) : mouse(obj.mouse), keyb(obj.keyb), screen(obj.screen) {};
+PerDevice::PerDevice(const string& _mouse, const string& _keyb, const string& _screen) : mouse(_mouse), keyb(_keyb), screen(_screen) {};
+
+string PerDevice::get_mouse() const { return mouse; };
+string PerDevice::get_keyb() const { return mouse; };
+string PerDevice::get_screen() const { return screen; };
+
+void PerDevice::set_mouse(string new_mouse) { mouse = new_mouse; };
+void PerDevice::set_keyb(string new_keyb) { keyb = new_keyb; };
+void PerDevice::set_screen(string new_screen) { screen = new_screen; };
+
+void PerDevise::show()
+{
+	cout << "Информация о мышке: " << mouse << endl;
+	cout << "Информация о клавиатуре: " << keyb << endl;
+	cout << "Информация о мониторе: " << screen << endl;
+}

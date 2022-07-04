@@ -1,0 +1,27 @@
+#pragma once
+#include <iostream>
+#include <string>
+
+using namespace std;
+class PerDevice
+{
+private:
+	string mouse;
+	string keyb;
+	string screen;
+public:
+	PerDevice();
+	PerDevice(const PerDevice& obj);
+	PerDevice(const string& _mouse, const string& _keyb, const string& _screen);
+	
+	string get_mouse() const;
+	string get_keyb() const;
+	string get_screen() const;
+
+	void set_mouse(string new_mouse);
+	void set_keyb(string new_keyb);
+	void set_screen(string new_screen);
+
+	void show();
+};
+
