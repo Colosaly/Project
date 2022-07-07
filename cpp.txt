@@ -6,7 +6,7 @@ PerDevice::PerDevice(const PerDevice& obj) : mouse(obj.mouse), keyb(obj.keyb), s
 PerDevice::PerDevice(const string& _mouse, const string& _keyb, const string& _screen) : mouse(_mouse), keyb(_keyb), screen(_screen) {};
 
 string PerDevice::get_mouse() const { return mouse; };
-string PerDevice::get_keyb() const { return mouse; };
+string PerDevice::get_keyb() const { return keyb; };
 string PerDevice::get_screen() const { return screen; };
 
 void PerDevice::set_mouse(string new_mouse) { mouse = new_mouse; };
