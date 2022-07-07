@@ -1,9 +1,9 @@
 #include "WorkSpace.h"
 using namespace std;
 
-WorkSpace::WorkSpace() {};
-WorkSpace::WorkSpace(int c_num, const string& dsk, const string& chr) {};
-WorkSpace::WorkSpace(const WorkSpace& ob) {};
+WorkSpace::WorkSpace() : cab_num(0) {};
+WorkSpace::WorkSpace(int _cab_num, const string& _desk, const string& _chair) : cab_num(_cab_num), desk(_desk), chair(_chair) {};
+WorkSpace::WorkSpace(const WorkSpace& obj) : cab_num(obj.cab_num), desk(obj.desk), chair(obj.chair) {};
 
 //setters
 void WorkSpace::set_cab_num(int c_num) { cab_num = c_num; }
